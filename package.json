@@ -1,7 +1,7 @@
 {
-  "name": "tabler-scss",
-  "version": "0.1.0",
-  "description": "Tabler UI styles provided as customizable SCSS files or prebuilt CSS stylesheet",
+  "name": "tabler-styles",
+  "version": "0.1.2",
+  "description": "Tabler UI styles provided as customizable SCSS files and prebuilt CSS stylesheet",
   "keywords": [
     "tabler",
     "scss",
@@ -9,6 +9,14 @@
     "ui",
     "ux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolostyle/tabler-styles"
+  },
+  "bugs": {
+    "url": "https://github.com/paolostyle/tabler-styles/issues"
+  },
+  "main": "dist/tabler.css",
   "scripts": {
     "autoprefix": "postcss dist/*.css --use autoprefixer --no-map -r",
     "build": "yarn run compile:scss && yarn run compile:scss:min && yarn run autoprefix && yarn run prettify",
